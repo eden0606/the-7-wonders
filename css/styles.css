@@ -1,0 +1,87 @@
+.header-container {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('/img/colosseum.png');
+    background-size: cover;
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-text{
+    font-family: 'Be Vietnam Pro', sans-serif; 
+    font-weight: 700;
+    color: #f2eeec !important;
+    font-size: 2rem;
+    padding-right: 4rem !important;
+}
+
+.logo-container {
+
+}
+
+.logo {
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #ffc619;
+    padding: 2rem;
+}
+
+.home-img-text-container {
+
+}
+
+.home-img-text {
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #ffc619;
+    font-size: 4.5rem;
+    padding: 2rem;
+    position: absolute;
+    bottom: 0;
+    margin: 0;
+}
+
+.off-white-color {
+    color: #f2eeec;
+}
+
+.arrow-icon {
+    font-size: 5rem;
+    padding: 2rem;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+/* font-family: 'Be Vietnam Pro', sans-serif;
+font-family: 'Rubik Mono One', sans-serif; */
+
+/* .pad {
+    padding: 2% 6%;
+}
+
+.img-size {
+    height: 100%;
+    width: 100%;
+}
+
+.title-pad {
+    padding: 0 0.75rem;
+}
+
+.stick {
+    position: fixed;
+    left: 0;
+    bottom:  0;
+    width: 100%;
+
+}
+
+.main-pad {
+    margin-bottom: 1.5rem;
+}
+
+.foot-pad {
+    padding-left: 7%;
+} */
