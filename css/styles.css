@@ -38,6 +38,20 @@ p {
     background-size: cover;
 }
 
+.about-header-container {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../img/petra.png');
+    background-size: cover;
+}
+
+.contact-header-container {
+    height: 100vh;
+    width: 100vw;
+    background-image: url('../img/great-wall.png');
+    background-size: cover;
+}
+
 .nav-container {
     display: flex;
     justify-content: space-between;
@@ -68,7 +82,7 @@ p {
 .home-img-text {
     font-family: 'Rubik Mono One', sans-serif;
     color: #ffc619;
-    font-size: 4.5rem;
+    font-size: 4rem;
     padding: 2rem;
     position: absolute;
     bottom: 0;
