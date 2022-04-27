@@ -1,3 +1,36 @@
+body {
+    background-color: #f2eeec !important;
+}
+
+h1 {
+    font-family: 'Rubik Mono One', sans-serif;
+    color:#1F4762;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+p {
+    color: #182833;
+}
+
+.text-align-center {
+    text-align: center;
+}
+
+.container-sizing {
+    padding: 8rem 10rem;
+}
+
+.rubik-font {
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.vietnam-font {
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
 .header-container {
     height: 100vh;
     width: 100vw;
@@ -46,12 +79,108 @@
     color: #f2eeec;
 }
 
+.blue-color {
+    color: #1F4762;
+}
+
+.yellow-orange-color {
+    color: #FDA300;
+}
+
+.dark-blue-color {
+    color: #182833;
+}
+
+.travel-header-text {
+    font-size: 5rem;
+}
+
+.travel-text {
+    font-size: 1.75rem;
+}
+
 .arrow-icon {
     font-size: 5rem;
     padding: 2rem;
     position: absolute;
     right: 0;
     bottom: 0;
+}
+
+.about-container {
+    display: flex;
+    padding: 8rem 10rem;
+}
+
+.about-img {
+    height: auto;
+    width: 100%;
+    border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    vertical-align: text-top;
+}
+
+.about-text-container {
+    flex-basis: 50%;
+    padding-right: 6rem;
+
+}
+
+.about-img-container {
+    flex-basis: 50%;
+    
+}
+
+.primary-button {
+    font-family: 'Rubik Mono One', sans-serif;
+    background-color: #FFC619;
+    color: #182833;
+    border: none;
+    padding: 0.7rem 2rem;
+    border-radius: 5px;
+}
+
+.learn-more-button {
+    font-size: 2rem;
+}
+
+.reviews-container {
+    background-color: #F5E4B5;
+}
+
+.review-header-text {
+    text-align: center;
+}
+
+.contact-text {
+    text-align: center;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.footer {
+    background-color: #ffc619;
+    padding: 3rem 5rem 1rem 5rem;
+}
+
+.footer-content-container {
+    display: flex;
+    padding-bottom: 3rem;
+}
+
+.footer-logo-container {
+    flex-basis: 30%;
+}
+
+.footer-link-container {
+    display: flex;
+    flex-basis: 70%;
+    justify-content: space-evenly;
+}
+
+.footer-link-header {
+    font-weight: 700;
+    font-size: 1.2rem;
 }
 
 /* font-family: 'Be Vietnam Pro', sans-serif;
