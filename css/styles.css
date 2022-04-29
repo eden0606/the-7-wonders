@@ -310,6 +310,10 @@ p, label, li, ul {
     font-size: 2.5rem;
 }
 
+.no-margin {
+    margin: 0;
+}
+
 .wonders-title {
     font-size: 3rem;
     text-align: center;
@@ -329,6 +333,7 @@ p, label, li, ul {
     height: 18rem;
     object-fit: cover;
     border-radius: 10px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .wonders-text-right {
@@ -339,6 +344,68 @@ p, label, li, ul {
 .wonders-text-left {
     flex-basis: 60%;
     padding-right: 3.5rem;
+}
+
+.yellow-hover:hover {
+    color: #FFC619 !important;
+}
+
+.yellow-hover:focus {
+    color: #FFC619 !important;
+}
+
+@media screen and (max-width: 768px) {
+    .nav-text {
+        font-size: 1rem;
+        padding-right: 2rem !important;
+    }
+
+    .container-sizing {
+        padding: 6rem 2rem;
+    }
+
+    .home-img-text {
+        font-size: 1.75rem;
+    }
+
+    .arrow-icon {
+        font-size: 2rem;
+    }
+
+    .footer-link-container {
+        display: none;
+    }
+
+    .review-item-container {
+        display: block;
+    }
+
+    .package-item {
+        width: 100%;
+        margin-bottom: 3rem;
+    }
+
+    .contact-text {
+        font-size: 2rem;
+    }
+
+    .about-container {
+        display: block;
+    }
+
+    .about-text-container {
+        padding-right: 0;
+        margin-bottom: 4rem;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 960px) {
+
 }
 
 /* font-family: 'Be Vietnam Pro', sans-serif;
