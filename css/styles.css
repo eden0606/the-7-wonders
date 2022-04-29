@@ -71,6 +71,10 @@ p, label, li, ul {
     padding-right: 4rem !important;
 }
 
+.navbar-dark, .navbar-toggler {
+    border-color: #f2eeec !important;
+}
+
 .logo-container {
 
 }
@@ -250,6 +254,7 @@ p, label, li, ul {
 
 .faq-icon {
     font-size: 8rem;
+    text-align: center
 }
 
 .faq-icon-text {
@@ -398,13 +403,115 @@ p, label, li, ul {
         margin-bottom: 4rem;
     }
 
-}
+    .footer-logo-text {
+        font-size: 2rem !important;
+    }
 
-@media screen and (max-width: 768px) {
+    .deals-package-container {
+        display: block;
+    }
 
+    .book-now-button {
+        font-size: 1.75rem;
+    }
+
+    .wonders-title {
+        font-size: 2rem;
+    }
+
+    .wonders-info-container {
+        display: block;
+    }
+
+    .wonders-text-right {
+        padding-left: 0;
+    }
+
+    .wonders-text-left {
+        padding-right: 0;
+    }
+    
+    .faq-title {
+        font-size: 2rem;
+    }
+
+    .faq-icon {
+        font-size: 3rem;
+    }
+
+    .faq-icon-text {
+        font-size: 1rem;
+    }
+
+    .faq-cont-container {
+        display: block;
+        text-align: center;
+    }
+
+    .faq-travel-container {
+        padding-bottom: 2.5rem;
+    }
+
+    .faq-amenities-container {
+        padding-bottom: 2.5rem;
+    }
+
+    .faq-pricing-container {
+        padding-bottom: 2.5rem;
+    }
+
+    .contact-form {
+        margin: 0;
+        padding: 1rem 1rem !important;
+    }
+
+    .contact-form-header {
+        margin-bottom: 2rem;
+    }
 }
 
 @media screen and (max-width: 960px) {
+    .container-sizing {
+        padding: 6rem 3rem;
+    }
+
+    .nav-text {
+        padding-right: 2rem !important;
+    }
+
+    .footer-logo-container {
+        flex-basis: 25%;
+    }
+
+    .footer-logo-text {
+        font-size: 1.5rem;
+    }
+
+    .package-price-text {
+        font-size: 3rem;
+    }
+
+    .faq-tri-text {
+        font-size: 1.75rem;
+    }
+
+    .faq-travel-container {
+        padding-right: 1rem;
+    }
+
+    .faq-amenities-container {
+        padding-right: 1rem;
+    }
+
+    .faq-pricing-container {
+        padding-right: 1rem;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .container-sizing {
+        padding: 6rem 3rem;
+    }
 
 }
 
