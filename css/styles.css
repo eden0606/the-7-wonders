@@ -359,10 +359,34 @@ p, label, li, ul {
     color: #FFC619 !important;
 }
 
+.yellow-orange-hover:hover {
+    color: #FDA300 !important;
+}
+
+.yellow-orange-hover:focus {
+    color: #FDA300 !important;
+}
+
+.blue-hover:hover {
+    color:#1F4762 !important;
+}
+
+.blue-hover:focus {
+    color:#1F4762 !important;
+}
+
+.dark-blue-hover:hover {
+    color:#182833 !important;
+}
+
+.dark-blue-hover:focus {
+    color:#182833 !important;
+}
+
 @media screen and (max-width: 768px) {
     .nav-text {
         font-size: 1rem;
-        padding-right: 2rem !important;
+        padding-right: 1.75rem !important;
     }
 
     .container-sizing {
@@ -476,7 +500,7 @@ p, label, li, ul {
     }
 
     .nav-text {
-        padding-right: 2rem !important;
+        padding-right: 1.75rem !important;
     }
 
     .footer-logo-container {
@@ -514,35 +538,3 @@ p, label, li, ul {
     }
 
 }
-
-/* font-family: 'Be Vietnam Pro', sans-serif;
-font-family: 'Rubik Mono One', sans-serif; */
-
-/* .pad {
-    padding: 2% 6%;
-}
-
-.img-size {
-    height: 100%;
-    width: 100%;
-}
-
-.title-pad {
-    padding: 0 0.75rem;
-}
-
-.stick {
-    position: fixed;
-    left: 0;
-    bottom:  0;
-    width: 100%;
-
-}
-
-.main-pad {
-    margin-bottom: 1.5rem;
-}
-
-.foot-pad {
-    padding-left: 7%;
-} */
